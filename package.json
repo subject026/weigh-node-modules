@@ -16,6 +16,6 @@
   "license": "ISC",
   "dependencies": {},
   "bin": {
-    "sboncen": "./index.js"
+    "weigh-node-modules": "./index.js"
   }
 }
