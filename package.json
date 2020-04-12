@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/subject026/weigh-node-modules"
   },
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "dev": "NODE_ENV=dev node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
