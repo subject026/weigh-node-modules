@@ -1,0 +1,21 @@
+{
+  "name": "weigh-node-modules",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subject026/weigh-node-modules"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "subject026",
+  "license": "ISC",
+  "dependencies": {},
+  "bin": {
+    "sboncen": "./index.js"
+  }
+}
