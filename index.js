@@ -17,7 +17,7 @@ const getNodeModulesPaths = (currentDir) => {
     if (fs.statSync(path.join(currentDir, file)).isDirectory()) {
       // if it;s a nm folder add it to the array.
       if (file === "node_modules") {
-        nmPathsArray.push(path.join(rootDir, currentDir, file));
+        nmPathsArray.push(path.join(currentDir, file));
       } else {
         // if it's some other folder look inside it
         getNodeModulesPaths(path.join(currentDir, file), nmPathsArray);
